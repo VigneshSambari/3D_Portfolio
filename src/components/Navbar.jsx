@@ -10,7 +10,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className={`${styles.paddingX} w-full flex items-center
-          bg-primary py-3 fixed top-0 z-20`}>
+          bg-primary py-3 fixed top-0 z-30`}>
       <div className='w-full flex justify-between items-center 
             max-w-7xl max-auto'>
         <Link to="/" className='flex items-center gap-2'
@@ -40,7 +40,7 @@ const Navbar = () => {
                 ))
               }
         </ul>
-        <diV className='sm:hidden flex flex-1 
+        <div className='sm:hidden flex flex-1 
                 justify-end items-center'>
           <img src={toggle?close:menu} alt='menu' className='w-[19px] h-[19px]
               object-contain cursor-pointer' 
@@ -66,7 +66,7 @@ const Navbar = () => {
               }
         </ul>
           </div>  
-        </diV>
+        </div>
         
       </div>
     </nav>

@@ -12,25 +12,27 @@ const Hero = () => {
             <div className="w-4 h-4 rounded-full bg-[#915eff]" />
             <div className="w-1 sm:h-55  h-40 violet-gradient" />  
           </div>
-          <div>
+        <div className="z-20">
           <h1 className={`${styles.heroHeadText} text-white max-w-[450px]`}>
               Hi, I'm &nbsp; <span className="text-[#915eff]">Sambari Vignesh</span>
               <p className={`${styles.heroSubText} mt-2 text-white-100`}>
                 I am a web developer, app developer and ML engineer, and I also make 
                 3D models in blender.
               </p>
-            </h1>
-          </div>
+          </h1>
+        </div>
          
         </div>
-        <ComputersCanvas />
-
+ 
+          <ComputersCanvas className="z-10"/>
+    
+       
         <div className="absolute xs:bottom-5 bottom-10 w-full flex
               justify-center items-center">
           <a href="#about">
             <div className="w-[20px] h-[40px] rounded-3xl border-2
                   justify-center items-start p-1 flex">
-               <motion.dev 
+               <motion.div 
                 animate={{
                   y: [0,20,0]
                 }}

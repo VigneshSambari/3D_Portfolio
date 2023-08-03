@@ -46,7 +46,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Flutter App Developer",
       icon: mobile,
     },
     {
@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "ML Engineer",
       icon: creator,
     },
   ];
@@ -263,8 +263,13 @@ import {
   ];
   
   const purpleColor = "#915eff";
-  const homePageTitle = "Hi, I'm Sambari Vignesh";
-  const homePageSubTitle1 = "I am an App Developer, Web application Developer"
-  const homePageSubTitle2 = "and Machine Learing Enthusiast"
-
-  export { services, technologies, experiences, testimonials, projects, purpleColor };
+  const aboutSection = {
+    head: "Introduction",
+    overView: "Overview",
+    info: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Netus et malesuada fames ac turpis egestas. Faucibus pulvinar elementum 
+                  integer enim. Convallis a cras semper auctor neque vitae. Arcu dictum 
+                  varius duis at consectetur lorem donec.`
+  }
+  export { services, technologies, experiences, testimonials, projects, purpleColor, aboutSection };
