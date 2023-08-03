@@ -15,10 +15,7 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    medimate,
     carrent,
     jobit,
     tripguide,
@@ -116,56 +113,18 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Developer Intern",
+      company_name: "Stealth Healthcare Startup(Medimate)",
+      icon: medimate,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "June 2023 - August 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        `Technologies: Flutter, NodeJS, MongoDB, Git.`,
+        `Converting wireframes to responsive UI in Flutter.`,
+        `Designing and deploying the backend using NodeJS.`,
+        `Integrating frontend UI with backend APIs with effective state and data management(GetX)`,
+        `Collaborating with the team, debugging the code and problem solving.`
+      ]
     },
   ];
   
@@ -266,10 +225,23 @@ import {
   const aboutSection = {
     head: "Introduction",
     overView: "Overview",
-    info: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                  Netus et malesuada fames ac turpis egestas. Faucibus pulvinar elementum 
-                  integer enim. Convallis a cras semper auctor neque vitae. Arcu dictum 
-                  varius duis at consectetur lorem donec.`
+    info: `I am a highly skilled and versatile software developer with 
+    expertise in various programming languages, including C++, Python, 
+    Dart, HTML, CSS, and JavaScript. I am proficient in using tools like 
+    VScode and Android Studio to build efficient and robust applications.
+     As a full-stack developer, I have hands-on experience in both 
+     frontend frameworks such as Flutter and ReactJS and backend 
+     technologies like NodeJS and Firebase. Additionally, I possess a 
+     strong understanding of Artificial Intelligence, Machine Learning, 
+     and OpenCV. My technical proficiency, combined with my 
+     problem-solving abilities, allows me to deliver innovative 
+     solutions and contribute effectively to any software development 
+     project.`
   }
-  export { services, technologies, experiences, testimonials, projects, purpleColor, aboutSection };
+
+  const experienceSection = {
+    head: "What I have done so far",
+    experince: "Work Experience"
+  }
+  export { services, technologies, experiences, testimonials, 
+      projects, purpleColor, aboutSection, experienceSection };
