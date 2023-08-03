@@ -4,22 +4,22 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
     medimate,
     carrent,
     jobit,
     tripguide,
     threejs,
+    dart,
+    cpp,
+    python,
+    flutter,
   } from "../assets";
   
   export const navLinks = [
@@ -70,16 +70,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -98,17 +90,26 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
+      name: "C++",
+      icon: cpp,
+    },
+    {
+      name: "Dart",
+      icon: dart,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Flutter",
+      icon: flutter,
+    },
+    {
+      name: "Git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+   
   ];
   
   const experiences = [
@@ -243,5 +244,13 @@ import {
     head: "What I have done so far",
     experince: "Work Experience"
   }
+
+  const technologySection = {
+    head: "What I have worked with so far",
+    tech: "Tech Stack"
+  }
+
+
   export { services, technologies, experiences, testimonials, 
-      projects, purpleColor, aboutSection, experienceSection };
+      projects, purpleColor, aboutSection, experienceSection,
+      technologySection };
