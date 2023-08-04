@@ -179,7 +179,7 @@ import {
       ],
       image: carrent,
       source_code_link: "https://github.com/VigneshSambari/Flutter_Chat_App",
-      demo: "",
+      demo: "https://drive.google.com/drive/folders/1I7p8Vzb_UQH3U0OmlGx182VDrNGErMtN?usp=sharing",
     },
     {
       name: "Campus Connect",
@@ -241,7 +241,7 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/VigneshSambari/Flutter_AIRadio_App",
-      demo: "",
+      demo: "https://drive.google.com/drive/folders/1WjlVl-0Ozi1Csq0OZT2x3uj5ZdRcUMA8?usp=sharing",
     },
   ];
   
