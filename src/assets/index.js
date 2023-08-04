@@ -35,6 +35,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import camconnect from './campusconnect.png'
+import chatapp from './chatapp.png';
+import airadio from './airadio.png';
 
 import imageIcon from "./imageIcon.png"
 
@@ -74,4 +76,6 @@ export {
   medimate,
   imageIcon,
   camconnect,
+  airadio,
+  chatapp
 };
