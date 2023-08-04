@@ -13,13 +13,13 @@ import {
     git,
     medimate,
     carrent,
-    jobit,
     tripguide,
     threejs,
     dart,
     cpp,
     python,
     flutter,
+    camconnect,
   } from "../assets";
   
   export const navLinks = [
@@ -158,67 +158,90 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Chat Application(Full Chat Application)",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        ` Full chat application with chat features like texting,
+        sharing images, location, documents and audio with
+        notifications`,
       tags: [
         {
-          name: "react",
+          name: "Flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Firebase",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "SQLite",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/VigneshSambari/Flutter_Chat_App",
+      demo: "",
     },
     {
-      name: "Job IT",
+      name: "Campus Connect",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        `Community app to connect students and college.
+         Contains features like blogging, specialized chat
+        features designed for college students, profile. 
+         Sessions feature to connect to teaching experts and
+        industrial experts using video or audio call,
+        implemented using Zego Cloud. 
+         Bloc state management for responsive UI. 
+         Scheduling the video conferences and enabled push
+        notifications. 
+         Can be scaled to other colleges and integrated with
+        college's system. 
+         Local storage management using ObjectBox`,
       tags: [
         {
-          name: "react",
+          name: "Flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "NodeJS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Socket.io",
           color: "pink-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "text-yellow-500",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: camconnect,
+      source_code_link: "https://github.com/VigneshSambari/Flutter_Community_App",
+      demo: `https://www.canva.com/design/DAFib2SzZPI/Dsdf4gfuYZLtdG8TXXSrJA/edit?u
+              tm_content=DAFib2SzZPI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton`,
     },
     {
-      name: "Trip Guide",
+      name: "AI Radio App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        ` Voice controlled Radio Application which plays music
+        from live music streams. 
+         Integrated Alan AI into radio application so as to
+        interact with user and play music based on user
+        interest. 
+         Alan AI Assistant can also respond to some other
+        general questions just like google assistant.`,
       tags: [
         {
-          name: "nextjs",
+          name: "Flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Alan AI Studio",
           color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/VigneshSambari/Flutter_AIRadio_App",
+      demo: "",
     },
   ];
   
@@ -250,7 +273,18 @@ import {
     tech: "Tech Stack"
   }
 
+  const workSection = {
+    head: "My recent work",
+    projects: "My Projects",
+    desc: `Following projects showcases my skills and experience
+            through real-world examples of my work. Each project
+            is briefly described with links to code repositories and 
+            live demos in it. It reflects my ability to solve compelx
+             problems, work with different technologies, and manage projects 
+             efficiently.`
+  }
+
 
   export { services, technologies, experiences, testimonials, 
       projects, purpleColor, aboutSection, experienceSection,
-      technologySection };
+      technologySection,workSection };

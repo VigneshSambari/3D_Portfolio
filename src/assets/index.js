@@ -34,6 +34,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import camconnect from './campusconnect.png'
+
+import imageIcon from "./imageIcon.png"
 
 export {
   logo,
@@ -69,4 +72,6 @@ export {
   jobit,
   tripguide,
   medimate,
+  imageIcon,
+  camconnect,
 };
