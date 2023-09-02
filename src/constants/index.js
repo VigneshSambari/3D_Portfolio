@@ -20,6 +20,8 @@ import {
     camconnect,
     chatapp,
     airadio,
+    aiservice,
+    portfoliobuilder
   } from "../assets";
   
   export const navLinks = [
@@ -157,6 +159,87 @@ import {
   ];
   
   const projects = [
+    {
+      name: "AI Generator",
+      description:
+        ` AI Generator application where we can use prompts
+        to generate code, images, music, videos etc.
+         Used OpenAI API to generate code, images and answers for 
+        the given prompts.
+         Used Replica API to generate videos and music from
+        the prompts. 
+         Enabled chat-bot facility using Crisp SDK.`,
+      tags: [
+        {
+          name: "ReactJs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NodeJs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "NextJs",
+          color: "text-gray-400",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "OpenAI API",
+          color: "text-purple-600",
+        },
+        {
+          name: "Replica API",
+          color: "text-yellow-500",
+        },
+      ],
+      image: aiservice,
+      source_code_link: "https://github.com/VigneshSambari/NEXT_AI_Service.git",
+      demo: `https://next-ai-service.vercel.app/`,
+    },
+    {
+      name: "Portfolio Generator",
+      description:
+        ` Portfolio Generator where a  user can create and share his portfolio. 
+          User can save his portfolio made using various templates. 
+          Used framer-motion to stylize the portfolios, user can use many animation features
+        for different parts of the portfolio.
+          Enabled subscription model where user can subscribe to use premium portfolio templates.
+          Integrated payment gateway using Stripe.
+          Auto generation of portfolio using resume is coming soon.
+          Implemented 3D models and animations using ThreeJs`,
+      tags: [
+        {
+          name: "ReactJs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NodeJs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "NextJs",
+          color: "text-orange-400",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Stripe",
+          color: "text-gray-400",
+        },
+        {
+          name: "Prisma",
+          color: "text-yellow-500",
+        },
+      ],
+      image: portfoliobuilder,
+      source_code_link: "https://github.com/VigneshSambari/Portfolio_Builder.git",
+      demo: ``,
+    },
     {
       name: "Chat Application(Full Chat Application)",
       description:

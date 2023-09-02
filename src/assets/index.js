@@ -37,6 +37,8 @@ import tripguide from "./tripguide.png";
 import camconnect from './campusconnect.png'
 import chatapp from './chatapp.png';
 import airadio from './airadio.png';
+import aiservice from './aiservice.png';
+import portfoliobuilder from './portfoliobuilder.png';
 
 import imageIcon from "./imageIcon.png"
 
@@ -77,5 +79,7 @@ export {
   imageIcon,
   camconnect,
   airadio,
-  chatapp
+  chatapp,
+  aiservice,
+  portfoliobuilder
 };
