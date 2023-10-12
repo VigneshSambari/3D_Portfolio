@@ -39,6 +39,7 @@ import chatapp from './chatapp.png';
 import airadio from './airadio.png';
 import aiservice from './aiservice.png';
 import portfoliobuilder from './portfoliobuilder.png';
+import movierecsys from './movierecsys.png';
 
 import imageIcon from "./imageIcon.png"
 
@@ -81,5 +82,6 @@ export {
   airadio,
   chatapp,
   aiservice,
-  portfoliobuilder
+  portfoliobuilder,
+  movierecsys
 };

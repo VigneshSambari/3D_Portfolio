@@ -21,7 +21,8 @@ import {
     chatapp,
     airadio,
     aiservice,
-    portfoliobuilder
+    portfoliobuilder,
+    movierecsys
   } from "../assets";
   
   export const navLinks = [
@@ -325,6 +326,30 @@ import {
       image: airadio,
       source_code_link: "https://github.com/VigneshSambari/Flutter_AIRadio_App",
       demo: "https://drive.google.com/drive/folders/1WjlVl-0Ozi1Csq0OZT2x3uj5ZdRcUMA8?usp=sharing",
+    },
+    {
+      name: "Movie Recommender System",
+      description:
+        ` Developed a movie recommender system with content based filtering.
+         Designed User Interface with streamlit library.
+         Used IMDB dataset to extract relevant features.`,
+      tags: [
+        {
+          name: "Pandas",
+          color: "text-yellow-500",
+        },
+        {
+          name: "Numpy",
+          color: "green-text-gradient",
+        },
+        {
+          "name": "Scikit-learn",
+          color: "pink-text-gradient"
+        }
+      ],
+      image: movierecsys,
+      source_code_link: "https://drive.google.com/drive/folders/17heTdPTS0hD5LtBB6XD2Jatna06MLSQs",
+      demo: "",
     },
   ];
   
